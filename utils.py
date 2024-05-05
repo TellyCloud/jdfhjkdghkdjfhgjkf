@@ -657,8 +657,11 @@ async def send_all(bot, userid, files, ident):
                         [
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                    ],  [
+                        InlineKeyboardButton('Bot List', url="https://t.me/TELLYCLOUD_Bots/5"),
+                        InlineKeyboardButton('Main Cʜᴀɴɴᴇʟ', url="https://t.me/TELLYhub")
+                    ],  [
+                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/tellyhubsupports")
                         ]
                     ]
                 )
