@@ -18,7 +18,7 @@
     "website": "https://github.com/Joelkb/DQ-the-file-donor",
     "repository": "https://github.com/Joelkb/DQ-the-file-donor",
     "env": {
-        "BOT_TOKEN": {"6632328945:AAHKnUdOvnyz_SZ9CPy9jE6ImR6gNfsoVN0",
+        "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true
         },
