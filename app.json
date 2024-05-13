@@ -25,18 +25,22 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "28487378",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "8fbb5049d555f9d7db677e02a3132972",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "-1001897244651 -1002104043505 -1001892339954",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "5056925533",
             "required": true
         },
         "PICS": {
@@ -45,6 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001922361481",
             "required": true
         },
         "AUTH_USERS": {
@@ -53,14 +58,21 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "mongodb+srv://pebef88860:pebef88860@cluster0.uens2hb.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
+        "SECONDDB_URI": {
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "mongodb+srv://wayik41893:wayik41893@cluster0.cprtcvp.mongodb.net/?retryWrites=true&w=majority",
+            "required": true        
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Rajappan",
             "required": false
         },
         "COLLECTION_NAME": {
